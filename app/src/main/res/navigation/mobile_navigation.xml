@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cl.alebran.boletashonorarioschile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ganar"
+        android:name="cl.alebran.boletashonorarioschile.ui.ganar.GanarFragment"
+        android:label="@string/menu_ganar"
+        tools:layout="@layout/ganar_fragment" />
+    <fragment
+        android:id="@+id/nav_cobrar"
+        android:name="cl.alebran.boletashonorarioschile.ui.cobrar.CobrarFragment"
+        android:label="@string/menu_cobrar"
+        tools:layout="@layout/cobrar_fragment" />
+</navigation>

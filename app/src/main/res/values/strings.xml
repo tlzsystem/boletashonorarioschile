@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BoletaCL</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_ganar">Quiero ganar</string>
+    <string name="menu_cobrar">Quiero cobrar</string>
+    <string name="ganar_titulo">Ingresa el valor que deseas ganar</string>
+    <string name="ganar_resumen">Para ganar el valor ingresado, deberás hacer la boleta por:</string>
+    <string name="detalle">Detalle:</string>
+    <string name="cobrar_titulo">Ingresa el valor a cobrar</string>
+    <string name="cobrar_resumen">Con el valor ingresado, vas a ganar:</string>
+</resources>
